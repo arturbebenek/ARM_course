@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1783798077</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\project.pbd</file>
+      <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\LM4F120E5QR.icf</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 9 6 3 7 4 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

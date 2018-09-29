@@ -1,0 +1,13 @@
+"C:\tools\IAR\ARM_KS_7.40\arm\bin\armproc.dll" 
+
+"C:\tools\IAR\ARM_KS_7.40\arm\bin\armlmiftdi.dll" 
+
+"C:\embedded_programming\lesson18\Debug\Exe\c.out" 
+
+--plugin "C:\tools\IAR\ARM_KS_7.40\arm\bin\armbat.dll" 
+
+--flash_loader "C:\tools\IAR\ARM_KS_7.40\arm\config\flashloader\TexasInstruments\FlashTC4_H6_o.board" 
+
+
+
+

@@ -1,0 +1,26 @@
+Dependencies for Project 'lesson', Target 'dbg': (DO NOT MODIFY !)
+F (.\bsp.c)(0x5A47D166)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I . -I ..\qpc\3rd_party\CMSIS\Include -I ..\qpc\3rd_party\ek-tm4c123gxl -D__UVISION_VERSION="524" -DTM4C123GH6PM -D__FPU_PRESENT-o .\dbg\bsp.o --omf_browse .\dbg\bsp.crf --depend .\dbg\bsp.d)
+I (C:\tools\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (bsp.h)(0x5A47D166)
+I (..\qpc\3rd_party\ek-tm4c123gxl\TM4C123GH6PM.h)(0x59885D32)
+I (..\qpc\3rd_party\CMSIS\Include\core_cm4.h)(0x59E0FFD4)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_version.h)(0x59C0E58E)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_compiler.h)(0x59E0FFD2)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_armcc.h)(0x59C0E58E)
+I (..\qpc\3rd_party\CMSIS\Include\mpu_armv7.h)(0x59E0FFD4)
+I (..\qpc\3rd_party\ek-tm4c123gxl\system_TM4C123GH6PM.h)(0x551D2AE8)
+F (.\main.c)(0x5A480D9F)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I . -I ..\qpc\3rd_party\CMSIS\Include -I ..\qpc\3rd_party\ek-tm4c123gxl -D__UVISION_VERSION="524" -DTM4C123GH6PM -D__FPU_PRESENT-o .\dbg\main.o --omf_browse .\dbg\main.crf --depend .\dbg\main.d)
+I (C:\tools\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (bsp.h)(0x5A47D166)
+F (.\bsp.h)(0x5A47D166)()
+F (..\qpc\3rd_party\ek-tm4c123gxl\system_TM4C123GH6PM.c)(0x5613F01A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I . -I ..\qpc\3rd_party\CMSIS\Include -I ..\qpc\3rd_party\ek-tm4c123gxl -D__UVISION_VERSION="524" -DTM4C123GH6PM -D__FPU_PRESENT-o .\dbg\system_tm4c123gh6pm.o --omf_browse .\dbg\system_tm4c123gh6pm.crf --depend .\dbg\system_tm4c123gh6pm.d)
+I (C:\tools\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588C2C04)
+I (..\qpc\3rd_party\ek-tm4c123gxl\TM4C123GH6PM.h)(0x59885D32)
+I (..\qpc\3rd_party\CMSIS\Include\core_cm4.h)(0x59E0FFD4)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_version.h)(0x59C0E58E)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_compiler.h)(0x59E0FFD2)
+I (..\qpc\3rd_party\CMSIS\Include\cmsis_armcc.h)(0x59C0E58E)
+I (..\qpc\3rd_party\CMSIS\Include\mpu_armv7.h)(0x59E0FFD4)
+I (..\qpc\3rd_party\ek-tm4c123gxl\system_TM4C123GH6PM.h)(0x551D2AE8)
+F (..\qpc\3rd_party\ek-tm4c123gxl\arm\startup_TM4C123GH6PM.s)(0x55DDE604)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__UVISION_VERSION SETA 524" --pd "TM4C123GH6PM SETA 1" --pd "Stack_Size SETA 1024" --pd "Heap_Size SETA 0"-o .\dbg\startup_tm4c123gh6pm.o --depend .\dbg\startup_tm4c123gh6pm.d)
+F (..\qpc\3rd_party\ek-tm4c123gxl\TM4C123GH6PM.h)(0x59885D32)()

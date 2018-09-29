@@ -1,0 +1,92 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[LMIFTDIDriver]
+LMI_ResetMode=0x00000001
+[DebugChecksum]
+Checksum=1109633704
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[CallStackLog]
+Enabled=0
+[LMIFTDI]
+LMIFTDIserialNo=0E2006F4
+LMIFTDIfoundProbes=
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[SfrWindow]
+Show=1 1
+Sort=4 0
+[BreakpointUsageDialog]
+Placement=_ 2662 403 3099 677
+[watch_formats]
+Fmt0={W}0:s32	4	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Disassemble mode]
+mode=0
+[Breakpoints]
+Bp0=_ "STD_CODE" "0x00000110" 0 0 0 0 "" 0 ""
+Count=1
+[Aliases]
+A0=_ "C:\embedded_programming\experiments\lesson17.new\bsp.c" ""
+A1=_ "C:\embedded_programming\lesson17\startup_tm4c.c" ""
+Count=2
+SuppressDialog=0
